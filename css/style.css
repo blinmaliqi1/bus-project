@@ -1,0 +1,1295 @@
+.con1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-h6 {
+  font-size: 12px;
+}
+.pr-5 {
+  padding-right: 82px;
+  margin-left: 10px;
+  color: white;
+}
+.pr-6 {
+  margin-left: 10px;
+  color: white;
+}
+.dropdown-item {
+  color: black !important;
+}
+.icon1 {
+  display: flex;
+  font-size: 35px;
+  color: chocolate;
+}
+.navbar {
+  background-image: linear-gradient(150deg, #ae02ff 0%, #181e76 100%);
+  padding: 20px !important;
+
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.navbar a {
+  color: white;
+}
+.nav-link:hover {
+  color: #ffae02 !important;
+}
+.nav-link:active {
+  color: #ffae02 !important;
+}
+.toggle1 {
+  font-size: xx-large;
+  color: black;
+}
+.navbar-toggler {
+  border: 3px solid black !important;
+}
+.big {
+  width: 70px;
+  height: 50px;
+  color: #ffae02;
+  margin-right: 10px;
+}
+.main-section {
+  background-image: linear-gradient(
+      50deg,
+      hsla(236, 100%, 20%, 0.709) 0%,
+      hsla(236, 100%, 20%, 0.741) 100%
+    ),
+    url("../img/the-road-in-the-city-e1679026670267.jpeg");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  padding-top: 223px;
+  padding-bottom: 250px;
+}
+.index-header-title {
+  font-size: 80px;
+  color: white;
+  padding: 0;
+  line-height: 75px;
+}
+.index-header-desc {
+  color: white;
+  font-size: 20px;
+}
+.btn1 {
+  padding: 15px 30px;
+  border: none;
+  background-color: #ffae02;
+  border-radius: 2px 2px 2px 2px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+.call {
+  display: flex;
+}
+.contact-call-icon {
+  padding: 20px;
+  background-color: #ffae02;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+#contact-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+#contact-bg {
+  background: linear-gradient(
+    153deg,
+    rgba(24, 30, 118, 1) 27%,
+    rgba(173, 0, 255, 1) 100%
+  );
+  color: white;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.contact-header {
+  padding: 20px;
+  padding-left: 44px;
+}
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn-reservation {
+  width: 100%;
+  height: 50%;
+  margin-top: auto;
+  padding: 10px 94px;
+  background-color: #ffae02;
+  border: none;
+  font-weight: 500;
+  padding: 23px 0px 23px 0px !important;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.3s;
+  color: black;
+}
+.index-online-text {
+  color: #181e76;
+}
+.reservation-text {
+  color: #181e76;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+#form-select {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 0.575rem 6.25rem 0.575rem 0.75rem;
+  border-radius: 0%;
+  color: #535353;
+}
+#index-online {
+  padding: 30px;
+  background: white;
+}
+#form-select-online {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 0.575rem 4.15rem 0.575rem 0.75rem;
+  border-radius: 0%;
+  color: #535353;
+  width: 100%;
+}
+
+/* -------------------------------responsive------------------------- */
+@media only screen and (min-width: 1600px) {
+  #contact-shadow {
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.15);
+  }
+  #form-select {
+    padding: 0.575rem 4.95rem 0.575rem 0.75rem;
+  }
+  .btn-reservation {
+    padding: 10px 67px;
+  }
+  .index-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -135px;
+  }
+  #client-row {
+    padding: 7em 0em 6em 0em;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  #form-select {
+    padding: 0.575rem 2rem 0.575rem 0.75rem;
+  }
+
+  .buss-header {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  #form-select {
+    padding: 0.575rem 6rem 0.575rem 0.75rem;
+  }
+
+  .buss-header {
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 1208px) {
+  #man {
+    text-align: center;
+    height: 600px !important;
+  }
+  .buss-header {
+    width: 500px;
+  }
+  #row-bus {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .main-section {
+    padding: 30px 0px 30px;
+  }
+  #index-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn1 {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    transition: ease-in-out 0.3s;
+    text-decoration: none;
+  }
+  #form-select {
+    padding: 0.575rem 4rem 0.575rem 0.75rem;
+  }
+  #form-select-online {
+    padding: 0.575rem 5.5rem 0.575rem 0.75rem;
+  }
+  .index-header-title {
+    font-size: 60px;
+  }
+  .index-img {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #card-off {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .span-offers {
+    font-size: 40px !important;
+  }
+  .img-offers {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #man {
+    height: 550px !important;
+  }
+  .line-page {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+  #lines-page-row {
+    width: 120% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .button1 {
+    width: 100%;
+  }
+  .card-linjat1 {
+    margin-top: 20px;
+  }
+  .lines-page-place {
+    margin-top: 20px;
+  }
+  .swap {
+    display: none;
+  }
+  .linjat11 {
+    width: 100%;
+  }
+  .card-linjat {
+    width: 100% !important;
+  }
+  #man {
+    height: 350px !important;
+  }
+  .wrap {
+    width: 100%;
+  }
+  #form-select-online {
+    width: 100%;
+  }
+  .btn-reservation {
+    width: 100% !important;
+
+    margin-top: 30px;
+  }
+  #contact-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact-icon {
+    display: flex;
+    justify-content: center;
+  }
+  #contact-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-header {
+    padding-left: 0;
+  }
+  .index-header-title {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .index-header-desc {
+    font-size: 15px;
+  }
+  #client-row {
+    padding: 5em 0em 5em 0em;
+  }
+  #client-row {
+    padding: 0em 0em 0em 0em !important;
+  }
+  .sec-5 {
+    padding: 50px !important;
+  }
+  .end {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    align-content: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  text-area-reservation {
+    width: 100% !important;
+  }
+  .big {
+    height: 70px !important;
+    margin-bottom: 20px;
+  }
+  .span-offers {
+    font-size: 31px !important;
+  }
+  #man {
+    height: 450px !important;
+  }
+  #map {
+    height: 400px !important;
+    margin-bottom: 50px;
+  }
+  #row-con {
+    margin: 0;
+  }
+  .contact-page-bus {
+    height: 230px !important;
+  }
+  .contact-page-img {
+    width: 350px !important;
+  }
+  #card-col {
+    margin-bottom: 20px;
+  }
+  .big {
+    padding-top: 20px;
+  }
+  .footer-title {
+    padding-top: 20px;
+    border-top: 1px solid rgba(214, 214, 214, 0.128);
+  }
+  .button-footer {
+    margin-bottom: 20px;
+  }
+  #oferts-button {
+    margin-bottom: 20px;
+  }
+  #section-col {
+    margin-bottom: 20px;
+  }
+  .buss-header {
+    width: 380px;
+  }
+  .client-img {
+    margin: 10px;
+  }
+  #client-row {
+    padding: 0em 0em 0em 0em !important;
+  }
+  .section-offers {
+    padding: 3em 0em 3em 0em !important;
+  }
+  .end {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+/* --------------------------------responsive------------------------------------- */
+#client-row {
+  padding: 7em 0em 6em 0em;
+}
+.section-text {
+  color: #181e76;
+  font-size: 40px;
+}
+.client-img {
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(
+    279deg,
+    rgba(174, 2, 255, 1) 40%,
+    rgba(255, 174, 2, 1) 86%
+  );
+}
+.client-img img {
+  width: 98%;
+  margin: -13px 0px 13px 0px;
+}
+.section-client {
+  display: flex;
+  justify-content: center;
+}
+.wrp {
+  color: #ffae02;
+}
+.section-paragraph {
+  color: #535353;
+}
+#blog-img img {
+  width: 100%;
+}
+
+#blog-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.section-blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6em 0em 6em 0em;
+}
+
+.sec-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 130px;
+  max-width: 900px;
+  color: white;
+  text-align: center;
+}
+.sec5 {
+  background-image: linear-gradient(
+      50deg,
+      hsla(236, 100%, 20%, 0.709) 0%,
+      hsla(236, 100%, 20%, 0.741) 100%
+    ),
+    url(../img/touristic-buses.jpeg);
+
+  background-position: 50% 65%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.transport-text {
+  color: #ffae02;
+  margin-bottom: 20px;
+}
+.btn5 {
+  background-color: #ffae02;
+  padding: 10px 20px 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+#man {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  border-style: solid;
+  border-width: 15px 15px 15px 15px;
+  border-color: white;
+  border-radius: 2px 2px 2px 2px;
+  margin-bottom: 20px;
+  padding: 30px 30px 30px 30px;
+  height: 450px;
+}
+.icon-offers {
+  font-size: 40px;
+  color: #ffae02;
+}
+.offers-text {
+  color: #181e76;
+}
+.link-safety {
+  text-decoration: none;
+  color: #ae02ff;
+  font-weight: 600;
+}
+#offers-row {
+  display: flex;
+  justify-content: center;
+}
+.section-offers-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  text-align: center;
+}
+.section-offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6em 0em 6em 0em;
+}
+#primary-destination {
+  background-color: #ffae02;
+  width: 100%;
+  font-weight: 700;
+}
+#section-col {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.card-title-section {
+  color: #181e76;
+  font-weight: 700;
+}
+.title-section {
+  color: rgb(52, 52, 52);
+  font-size: 16px;
+  font-weight: 400;
+}
+#img-card {
+  height: 276px;
+}
+.star {
+  color: #ffae02;
+}
+.sec7 {
+  background-image: linear-gradient(
+      50deg,
+      hsla(236, 100%, 29%, 0.446) 0%,
+      hsla(236, 100%, 28%, 0.578) 100%
+    ),
+    url("../img/young-woman-outdoor-waiting-bus-stop.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+#safe {
+  display: flex;
+}
+.check {
+  font-size: 40px;
+  border-radius: 0px;
+  color: #ffae02;
+}
+.paragraph-transport {
+  font-weight: 100;
+}
+#section-safety {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sec-7 {
+  background-color: white;
+  color: black;
+  padding: 25px 25px 25px 25px;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.15);
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  border-color: #ffae02;
+  border-radius: 2px 2px 2px 2px;
+  max-width: 332px;
+}
+.buss-client-text {
+  color: #181e76;
+}
+.card-icon {
+  font-size: 50px;
+  color: #ffae02;
+  margin-bottom: 20px;
+}
+.card-title2 {
+  font-size: 30px;
+}
+#card-bd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px 25px 25px 25px;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+#card-work {
+  background: linear-gradient(
+    144deg,
+    rgba(24, 30, 118, 1) 0%,
+    rgba(174, 2, 255, 1) 82%
+  );
+  transition: 0.5s ease-in-out;
+}
+
+.section-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
+}
+.section-work-wraper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 120px;
+}
+
+.test img {
+  height: 100%;
+  width: 100%;
+}
+
+.foto-test img {
+  width: 100%;
+  height: 460px;
+  object-fit: cover;
+}
+.section-wrapper-img,
+.wrapper-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.wrapper-img {
+  margin-bottom: 20px;
+}
+.boxx {
+  background-image: url(../img/diagonal-lines-1.png);
+  max-width: 275px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: white;
+  height: 260px;
+  border-style: solid;
+  border-width: 15px 15px 15px 15px;
+  border-color: white;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.section-box {
+  display: flex;
+  justify-content: center;
+  margin: -22.5em 0em 0em 0em !important;
+  padding: 20px 15px 20px 15px;
+}
+.iconn {
+  color: #ffae02;
+  font-size: 30px;
+}
+.wrapper-paragraph {
+  color: #535353;
+  display: flex;
+  align-items: center;
+}
+#reservation-date {
+  padding: 10px;
+}
+.wrapper-button {
+  padding: 10px 25px 10px 25px;
+  background-color: #ffae02;
+  border: none;
+  font-weight: 600;
+  margin-top: 15px;
+  transition: ease-in-out 0.3s;
+}
+#wrapper-col {
+  padding: 35px;
+}
+#row8 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.wrapper-icon {
+  font-size: 60px;
+  color: black;
+  background-color: #ffae02;
+  margin-bottom: 20px;
+}
+.imgf {
+  width: 30px;
+  height: 30px;
+}
+.wrapper-button {
+  display: flex;
+  align-items: center;
+}
+.oferts-span {
+  color: #181e76;
+  margin-right: 20px;
+  font-weight: 700;
+}
+.contact-page-header {
+  margin-right: 10px;
+}
+.oferts-button {
+  padding: 10px 35px 10px 35px;
+  background-color: #ffae02;
+  border: none;
+  font-weight: 600;
+  transition: ease-in-out 0.3s;
+  color: black;
+  text-decoration: none;
+}
+.sec-9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+.ofert-button {
+  padding: 10px 25px 10px 25px;
+  background-color: #ffae02;
+  color: white;
+  border: none;
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+}
+#card-oferts {
+  min-height: 420px;
+  flex-direction: unset;
+  color: white;
+  overflow: hidden;
+}
+#imgcard {
+  object-fit: cover;
+  transition: 0.5 ease;
+}
+#overlay {
+  top: unset;
+  padding: 30px;
+}
+#section-bus-container {
+  background-image: url(../img/diagonal-lines-1.png);
+}
+.bus-img img {
+  width: 100%;
+  margin: -20px 0px 18px -18px;
+  height: 100%;
+  object-fit: cover;
+}
+.bus-img {
+  background: linear-gradient(
+    200deg,
+    rgba(174, 2, 255, 1) 40%,
+    rgba(255, 174, 2, 1) 86%
+  );
+  margin-top: -21px;
+  margin-left: 30px;
+  height: 100%;
+}
+.section-bus {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.bus-text {
+  color: #181e76;
+  font-weight: 700;
+}
+.carousel {
+  background-color: white;
+}
+.t1 {
+  width: 70px;
+}
+.carousel1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.carousel2 {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.bus-paragraph {
+  color: #535353;
+  margin: 0;
+  margin-top: -5px;
+}
+#section-client-bus {
+  padding: 60px 60px 20px 60px;
+}
+.carousel-item {
+  padding: 25px;
+}
+.email1 {
+  width: 100%;
+  border: none;
+  padding: 12px 0px 12px 10px;
+}
+.register-email {
+  width: 100%;
+  background-color: #ffae02;
+  font-weight: 700;
+  padding: 12px 0px 12px 10px;
+  border: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  color: black;
+}
+
+.foot {
+  background: linear-gradient(
+    150deg,
+    rgba(244, 244, 244, 1) 50%,
+    rgba(191, 191, 191, 1) 100%
+  );
+  padding: 30px 0px 30px 0px;
+}
+.footer {
+  background-image: linear-gradient(
+      180deg,
+      rgba(24, 30, 118, 0.908) 30%,
+      rgba(25, 25, 25, 0.936) 100%
+    ),
+    url("../img/bus-lane-yellow-sign-with-arrow-e1679026697912.jpeg");
+  background-size: cover;
+  width: 100%;
+  object-fit: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.footer-company a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.footer-company a:hover {
+  text-decoration: underline;
+  color: #ffae02;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.footer-paragraph {
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+.button-footer {
+  background-color: #ffae02;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  font-weight: 700;
+  transition: ease-in-out 0.3s;
+  color: black;
+}
+#bus-row {
+  padding-bottom: 50px;
+}
+.img-foot {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.footer-title {
+  margin-bottom: 20px;
+}
+.footer-text {
+  font-weight: 100;
+}
+.footer-icon {
+  color: #ffae02;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.footer-logo {
+  color: #ffae02;
+  font-size: 25px;
+  margin-left: 10px;
+}
+.foot-icon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.footer-text-icon {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-weight: 100;
+}
+#footer-row {
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+.foot-paragraph {
+  color: #b4b4b4;
+  font-weight: 100;
+  font-size: 15px;
+}
+.end {
+  color: #b4b4b4;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.hr {
+  font-weight: 100;
+  font-size: 15px;
+}
+.hr1 {
+  margin-right: 10px;
+  border-right: 2px solid #ffae02;
+  padding-right: 10px;
+}
+#footer-link {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #ffffff21;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 1em 0em 0.5em 0em;
+}
+#footer-link a {
+  color: #ffae02;
+  text-decoration: none;
+}
+#button-reservation {
+  display: flex;
+}
+.btn-reservation:hover {
+  color: white;
+  background-color: #181e76;
+  transition: 0.5s;
+}
+.btn1:hover {
+  color: white;
+  background-color: #ae02ff;
+  transition: 0.5s;
+}
+.btn5:hover {
+  color: white;
+  background-color: #ae02ff;
+  transition: 0.5s;
+}
+#primary-destination:hover {
+  color: white;
+  background-color: #ae02ff;
+  transition: 0.5s;
+}
+#card-work:hover {
+  margin-top: -20px;
+  transition: 0.5s;
+}
+.wrapper-button:hover {
+  color: white;
+  background-color: #181e76;
+  transition: 0.5s;
+}
+.oferts-button:hover {
+  color: white;
+  background-color: #181e76;
+  transition: 0.5s;
+}
+#oferts-button,
+#imgcard {
+  transition: ease-in-out 0.3s;
+}
+.card-img-overlay,
+#imgcard:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.938813025210084) 94%
+  );
+}
+.card-img-overlay:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.938813025210084) 94%
+  );
+  transition: 0.3s;
+}
+.ofert-button:hover {
+  background-color: #181e76;
+  transition: ease-in-out 0.3s;
+}
+.register-email:hover {
+  color: white;
+  background-color: #181e76;
+  transition: ease-in-out 0.3s;
+}
+.button-footer:hover {
+  color: white;
+  background-color: #ae02ff;
+  transition: ease-in-out 0.3s;
+}
+.contact-page-bus {
+  height: 300px;
+  padding: 0;
+}
+.contact-page-img {
+  width: 500px;
+  padding-top: 20px;
+}
+.contact-page-textarea {
+  border-radius: 8px;
+  border: 1px solid #a6a6a6d6;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#contact-page-textarea {
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #a6a6a6d6;
+}
+.contact-page-title {
+  background-color: #f4f3f3;
+  padding: 25px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  color: #535353;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+#contact-page-col {
+  border: 1px solid #a6a6a6d6;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+#row-con {
+  padding: 25px;
+}
+.reservation-page {
+  font-size: 50px;
+  color: #181e76;
+}
+.input3 {
+  margin-top: 20px;
+}
+.contact-page-input {
+  color: #535353;
+}
+.sub1 {
+  color: white;
+  background-color: black;
+  padding: 5px 35px 5px 35px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.contact-us {
+  background-image: url(../img/diagonal-lines-1.png);
+}
+#map {
+  height: 670px;
+  border-radius: 20px;
+  margin-top: 25px;
+  width: 100%;
+}
+.section-destination {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.card-new {
+  background-color: #ffae02;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 5px;
+  color: white;
+}
+
+.carousel-control-prev-icon {
+  width: 1.5rem !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 20px !important;
+}
+.line-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: none;
+  padding: 50px;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.416);
+  margin-bottom: 20px;
+}
+.swap {
+  font-size: 25px;
+  color: #181e76;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.lines-page-input {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid rgb(193 193 193);
+  border-radius: 5px;
+  width: 100% !important;
+}
+.linjat1 {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+.linjat11 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #181e76;
+  border: none;
+  padding: 5px 20px 12px 20px;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 30px;
+}
+.card-linjat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.card-linjat1 {
+  text-align: center;
+  margin-bottom: 0;
+
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.card-linjat a {
+  color: black;
+  background-color: #ffae02;
+  border: none;
+  font-weight: 600;
+}
+.lines-page {
+  background-image: url(../img/diagonal-lines-1.png);
+}
+.lines-header {
+  padding: 30px 0px;
+}
+#lines-page-row {
+  width: 100%;
+}
+#lines-page-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.container1 {
+  width: 100%;
+}
+#card-search {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.15);
+}
+.lines-font {
+  font-weight: 700;
+}
+.lines-search-paragraph {
+  border: 1px solid #dedede;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.btn-flag {
+  border: 1px solid #dedede;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+}
+.bus-search {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.bus-search1 {
+  display: flex;
+  align-items: center;
+}
+.button1 {
+  border: none;
+  padding: 8px 10px 8px 10px;
+  border-radius: 10px;
+  background-color: #ffae02;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+.col-search {
+  color: #f15028;
+  margin-left: 8px;
+}
+.button2 {
+  display: flex;
+  justify-content: flex-end;
+}
+#row-search {
+  padding: 30px 5px 15px;
+}
+.offers1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.span-offers {
+  font-size: 60px;
+}
+.img-offers {
+  width: 45px;
+  height: 45px;
+}
+.offers {
+  background-image: url(../img/diagonal-lines-1.png);
+}

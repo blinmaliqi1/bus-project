@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css"
+      integrity="sha512-7Qj3qeu3b8Wn9e9vV7zNGeZjKZY7sMVt+y10uH7aGKjDbTt7g17JfFIET7V+1FtZa7Vw2ATtNvxluxxkkOo/lQ=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><ion-icon class="toggle1" name="menu-outline"></ion-icon
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand d-flex align-items-center" href="./index.html"
+            ><img
+              class="big"
+              src="./img/tour-bus-service-package-tour-coach-sleeper-bus-tourist-bus-c4f915117956feed06f4170f895f1601.png"
+              alt=""
+            />Autobusi-Trans</a
+          >
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Ballina</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./lines.html">Linjat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./offers.html">Ofertat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Kontakti</a>
+            </li>
+          </ul>
+          <div class="con1">
+            <div class="icon1">
+              <ion-icon name="briefcase"></ion-icon>
+              <div class="pr-5">
+                <h6 class="nav-h3">Orari punes</h6>
+                <h6 class="nav-h6">E hene-E diele: 6:00 - 20:00</h6>
+              </div>
+            </div>
+            <div class="icon1">
+              <ion-icon name="call"></ion-icon>
+              <div class="pr-6">
+                <h6 class="nav-h3">Qendra e thirjeve</h6>
+                <h6 class="nav-h6">88-7007-23588</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="main-section contact-page-bus">
+      <div class="container">
+        <div class="row" id="row-bus">
+          <div class="col-md-12">
+            <div class="buss1 d-flex justify-content-center">
+              <img
+                class="buss contact-page-img"
+                src="img/Coach-Bus-mockup-04-768x410.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lines-page">
+      <div
+        class="container d-flex justify-content-center align-items-center flex-column"
+      >
+        <div
+          class="d-flex align-items-center flex-column text-center lines-header"
+        >
+          <h3>Planifiko udhëtimin e ardhshëm!</h3>
+          <p class="section-paragraph">
+            Zbuloni mundësitë tuaja të udhëtimit me ne!
+          </p>
+        </div>
+        <div class="container" id="lines-page-container">
+          <div class="line-page">
+            <div class="row" id="lines-page-row">
+              <div class="col-md-3">
+                <div>
+                  <h6>Nga</h6>
+                  <input
+                    class="lines-page-input"
+                    type="search"
+                    placeholder="Vendi i nisjes"
+                  />
+                </div>
+              </div>
+              <div
+                class="col-md-1 d-flex justify-content-center align-items-center p-0"
+              >
+                <ion-icon
+                  class="swap"
+                  name="swap-horizontal-outline"
+                ></ion-icon>
+              </div>
+              <div class="col-md-3">
+                <div class="lines-page-place">
+                  <h6>Ne</h6>
+                  <input
+                    class="lines-page-input"
+                    type="search"
+                    placeholder="Vendi i arritjes"
+                  />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="lines-page-place">
+                  <h6>Data</h6>
+                  <input class="lines-page-input" type="date" />
+                </div>
+              </div>
+              <div class="col-md-2">
+                <div class="linjat1">
+                  <a class="linjat11" href="./lines-search.html">
+                    <ion-icon name="search-outline"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-linjat">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card card-linjat1">
+                <img
+                  src="https://cdn.britannica.com/35/195935-050-456D7CBC/Skanderbeg-Square-Tirana-Albania.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Tirana</h5>
+                  <p class="card-text">Kryeqyteti i Shqiperis</p>
+                  <a href="#" class="btn btn-primary">Shiko linjat</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-linjat1">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYcytpltXitpkd59zRenf2fSvhmvdxX6oNw&usqp=CAU"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Prishtina</h5>
+                  <p class="card-text">Kryeqyteti i Kosoves</p>
+                  <a href="#" class="btn btn-primary">Shiko linjat</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card card-linjat1">
+                <img
+                src=https://elitetravel.al/wp-content/uploads/2020/09/Shkup-1.jpg
+                class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Shkupi</h5>
+                  <p class="card-text">Kryeqyteti i Maqedonis</p>
+                  <a href="#" class="btn btn-primary">Shiko linjat</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foot">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <h1 class="buss-client-text">
+                Regjistrohuni per te marr njoftimet,ofertat apo linjat e fundit!
+              </h1>
+            </div>
+            <div class="col-md-5">
+              <input
+                class="email1"
+                type="email"
+                placeholder="Shkruaj adresen elektronike"
+              />
+              <button class="register-email">
+                <ion-icon name="clipboard-sharp"></ion-icon>Regjistrohu
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="row" id="footer-row">
+            <div class="col-md-4">
+              <img
+                class="img-foot"
+                src="img/Logo_bigtranz_1-300x70.png"
+                alt=""
+              />
+              <p class="footer-paragraph">
+                Transporti & Udhëtimet - Eksperienca e udhëtimit tuaj! Rehati
+                dhe siguri.
+              </p>
+              <button class="button-footer">
+                <ion-icon name="call-sharp"></ion-icon>888-7007-23576767
+              </button>
+            </div>
+            <div class="col-md-2 text-white d-flex flex-column footer-company">
+              <h5 class="footer-title">Kompania</h5>
+              <a href="./lines.html" class="footer-text">Linjat</a>
+              <a href="./offers.html" class="footer-text">Ofertat</a>
+              <a href="./contact.html" class="footer-text">Kontakti</a>
+              <a href="#" class="footer-text">Kushtet e perdorimit</a>
+            </div>
+            <div class="col-md-2 text-white">
+              <h5 class="footer-title">Shërbimet</h5>
+              <h6 class="footer-text">Rahati dhe siguri</h6>
+              <h6 class="footer-text">Wi-Fi brenda autobusëve</h6>
+              <h6 class="footer-text">Rezervime online</h6>
+              <h6 class="footer-text">Stafi profesional</h6>
+              <h6 class="footer-text">Suport 24/7</h6>
+            </div>
+            <div class="col-md-4 text-white">
+              <h5 class="footer-title">Kontaktoni</h5>
+              <h6 class="footer-text-icon">
+                <ion-icon
+                  class="footer-icon"
+                  name="location-outline"
+                ></ion-icon>
+                Ferizaj, Kosove
+              </h6>
+              <h6 class="footer-text-icon">
+                <ion-icon class="footer-icon" name="mail-outline"></ion-icon
+                >autobus@gmail.com
+              </h6>
+              <h6 class="footer-text-icon">
+                <ion-icon class="footer-icon" name="call-outline"></ion-icon
+                >+383 555 555
+              </h6>
+              <h6 class="foot-icon">
+                Na Ndiqni:
+                <a href="#">
+                  <ion-icon class="footer-logo" name="logo-facebook"></ion-icon
+                ></a>
+                <a href="#">
+                  <ion-icon class="footer-logo" name="logo-instagram"></ion-icon
+                ></a>
+                <a href=""
+                  ><ion-icon class="footer-logo" name="logo-tiktok"></ion-icon
+                ></a>
+                <a href=""
+                  ><ion-icon class="footer-logo" name="logo-twitter"></ion-icon
+                ></a>
+                <a href=""
+                  ><ion-icon class="footer-logo" name="logo-youtube"></ion-icon
+                ></a>
+              </h6>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="container">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              id="footer-link"
+            >
+              <p class="foot-paragraph">
+                © 2023 Autobusi, Te gjitha drejtat e rezervuara.
+                <a href="http://thanadev.com/" target="_blank">ThanaDev</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/js/main.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+</html>
