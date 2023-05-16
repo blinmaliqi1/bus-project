@@ -712,6 +712,11 @@
   color: #ffae02;
   font-size: 30px;
 }
+.text-area-page {
+  width: 100%;
+  border: 1px solid #b1afaf;
+  border-radius: 10px;
+}
 .wrapper-paragraph {
   color: #535353;
   display: flex;
